@@ -1,6 +1,6 @@
 # Eventos Goodyear
 
-![Eventos Goodyear](img/image.png)
+![Eventos Goodyear](/public/img/image.png)
 
 ## Descrição
 
