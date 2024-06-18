@@ -1,6 +1,6 @@
 # Eventos Goodyear
 
-![Eventos Goodyear](link_para_a_imagem_do_site)
+![Eventos Goodyear](img/image.png)
 
 ## Descrição
 
@@ -8,17 +8,17 @@ O **Eventos Goodyear** é um portal onde usuários podem criar e visualizar even
 
 ## Funcionalidades
 
-- Criação de eventos por usuários
-- Visualização de eventos disponíveis
-- Participação em eventos
-- Integração com banco de dados Oracle para gestão eficiente de dados
+-   Criação de eventos por usuários
+-   Visualização de eventos disponíveis
+-   Participação em eventos
+-   Integração com banco de dados Oracle para gestão eficiente de dados
 
 ## Requisitos
 
-- PHP versão 8.0 ou superior
-- Composer
-- Oracle Database
-- `laravel/framework` versão 9.52 ou superior
+-   PHP versão 8.0 ou superior
+-   Composer
+-   Oracle Database
+-   `laravel/framework` versão 9.52 ou superior
 
 ## Instalação
 
@@ -37,15 +37,18 @@ Siga os passos abaixo para instalar e configurar o projeto localmente:
     composer install
     ```
 4. Configure o arquivo `.env`:
+
     - Copie o arquivo `.env.example` e renomeie para `.env`
     - Configure suas variáveis de ambiente no arquivo `.env` conforme necessário, incluindo as configurações de conexão com o banco de dados Oracle
 
 5. Gere a chave da aplicação:
+
     ```sh
     php artisan key:generate
     ```
 
 6. Execute as migrações do banco de dados:
+
     ```sh
     php artisan migrate
     ```
